@@ -18,3 +18,7 @@ Route::group(['namespace' => 'Backend'], function()
 {
     Route::resource('dashboard', 'DashboardController');
 });
+Route::group(['namespace' => 'Frontend'], function()
+{
+    Route::resource('home', 'HomeController');
+});
