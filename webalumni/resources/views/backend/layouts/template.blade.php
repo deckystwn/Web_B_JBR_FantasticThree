@@ -18,7 +18,7 @@
   <!--external css-->
   <!-- font icon -->
   <link href="{{ asset('backend/css/elegant-icons-style.css') }}" rel="stylesheet" />
-  <link href="{{ asset('backend/css/font-awesome.min.cs') }}s" rel="stylesheet" />
+  <link href="{{ asset('backend/css/font-awesome.min.css') }}" rel="stylesheet" />
   <!-- full calendar css-->
   <link href="{{ asset('backend/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css') }}" rel="stylesheet" />
   <link href="{{ asset('backend/assets/fullcalendar/fullcalendar/fullcalendar.css') }}" rel="stylesheet" />
@@ -310,11 +310,12 @@
       </div>
     </header>
     <!--header end-->
-@include('backend/layouts.sidebar')
 
-@yield (content)
+    @include('backend/layouts.sidebar')
 
-</section>
+    @yield('content')
+  </section>
+  <!-- container section start -->
 
   <!-- javascripts -->
   <script src="js/jquery.js"></script>

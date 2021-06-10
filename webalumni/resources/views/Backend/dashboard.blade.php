@@ -1,6 +1,6 @@
     @extends('backend/layouts.template')
+
     @section('content')
-    
     <!--main content start-->
     <section id="main-content">
       <section class="wrapper">
@@ -668,7 +668,5 @@
       </div>
     </section>
     <!--main content end-->
-  </section>
-  <!-- container section start -->
 
-  @endsection
+    @endsection
