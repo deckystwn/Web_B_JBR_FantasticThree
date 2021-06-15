@@ -322,7 +322,7 @@
                           <span>Dashboard</span>
                       </a>
           </li>
-          <li class="sub-menu">
+        <!--  <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_document_alt"></i>
                           <span>Data Alumni Kuliah</span>
@@ -351,35 +351,35 @@
                           <span>Widgets</span>
                       </a>
           </li>
-          <li>
+         <-- <li>
             <a class="" href="chart-chartjs.html">
                           <i class="icon_piechart"></i>
                           <span>Charts</span>
 
                       </a>
 
-          </li>
+          </li> -->
 
           <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_table"></i>
-                          <span>Tables</span>
+                          <span>Alumni</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="basic_table.html">Basic Table</a></li>
+              <li><a class="" href="basic_table.html">Data Alumni</a></li>
             </ul>
           </li>
 
           <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_documents_alt"></i>
-                          <span>Pages</span>
+                          <span>Siswa</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="profile.html">Profile</a></li>
-              <li><a class="" href="login.html"><span>Login Page</span></a></li>
+              <li><a class="" href="profile.html">Data Siswa</a></li>
+              <!--<li><a class="" href="login.html"><span>Login Page</span></a></li>
               <li><a class="" href="contact.html"><span>Contact Page</span></a></li>
               <li><a class="" href="blank.html">Blank Page</a></li>
               <li><a class="" href="404.html">404 Error</a></li>
@@ -426,7 +426,7 @@
             <!--/.info-box-->
           </div>
           <!--/.col-->
-
+<!--
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div class="info-box dark-bg">
               <i class="fa fa-thumbs-o-up"></i>
@@ -436,7 +436,7 @@
             <!--/.info-box-->
           </div>
           <!--/.col-->
-
+<!--
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div class="info-box green-bg">
               <i class="fa fa-cubes"></i>
@@ -448,7 +448,7 @@
           <!--/.col-->
 
         </div>
-        <!--/.row-->
+        <!--/.row--
 
         
         <div class="row">
@@ -470,13 +470,13 @@
             </div>
           </div>
           <div class="col-md-3">
-            <!-- List starts -->
+            <!-- List starts 
             <ul class="today-datas">
-              <!-- List #1 -->
+              <!-- List #1 
               <li>
-                <!-- Graph -->
+                <!-- Graph 
                 <div><span id="todayspark1" class="spark"></span></div>
-                <!-- Text -->
+                <!-- Text 
                 <div class="datas-text">11,500 visitors/day</div>
               </li>
               <li>
@@ -502,7 +502,7 @@
         </div>
 
 
-        <!-- Today status end -->
+        <!-- Today status end 
 
 
 
@@ -657,7 +657,7 @@
             </div>
 
           </div>
-          <!--/col-->
+          <!--/col
           <div class="col-md-3">
 
             <div class="social-box facebook">
@@ -673,7 +673,7 @@
                 </li>
               </ul>
             </div>
-            <!--/social-box-->
+            <!--/social-box
           </div>
           <div class="col-md-3">
 
@@ -690,10 +690,10 @@
                 </li>
               </ul>
             </div>
-            <!--/social-box-->
+            <!--/social-box
 
           </div>
-          <!--/col-->
+          <!--/col
           <div class="col-md-3">
 
             <div class="social-box twitter">
@@ -709,10 +709,10 @@
                 </li>
               </ul>
             </div>
-            <!--/social-box-->
+            <!--/social-box
 
           </div>
-          <!--/col-->
+          <!--/col
 
         </div>
 
@@ -723,10 +723,10 @@
 
 
 
-        <!-- project team & activity start -->
+        <!-- project team & activity start 
         <div class="row">
           <div class="col-md-4 portlets">
-            <!-- Widget -->
+            <!-- Widget 
             <div class="panel panel-default">
               <div class="panel-heading">
                 <div class="pull-left">Message</div>
@@ -738,35 +738,35 @@
               </div>
 
               <div class="panel-body">
-                <!-- Widget content -->
+                <!-- Widget content 
                 <div class="padd sscroll">
 
                   <ul class="chats">
 
-                    <!-- Chat by us. Use the class "by-me". -->
+                    <!-- Chat by us. Use the class "by-me". 
                     <li class="by-me">
-                      <!-- Use the class "pull-left" in avatar -->
+                      <!-- Use the class "pull-left" in avatar
                       <div class="avatar pull-left">
                         <img src="img/user.jpg" alt="" />
                       </div>
 
                       <div class="chat-content">
-                        <!-- In meta area, first include "name" and then "time" -->
+                        <!-- In meta area, first include "name" and then "time"
                         <div class="chat-meta">John Smith <span class="pull-right">3 hours ago</span></div>
                         Vivamus diam elit diam, consectetur dapibus adipiscing elit.
                         <div class="clearfix"></div>
                       </div>
                     </li>
 
-                    <!-- Chat by other. Use the class "by-other". -->
+                    <!-- Chat by other. Use the class "by-other". 
                     <li class="by-other">
-                      <!-- Use the class "pull-right" in avatar -->
+                      <!-- Use the class "pull-right" in avatar 
                       <div class="avatar pull-right">
                         <img src="img/user22.png" alt="" />
                       </div>
 
                       <div class="chat-content">
-                        <!-- In the chat meta, first include "time" then "name" -->
+                        <!-- In the chat meta, first include "time" then "name"
                         <div class="chat-meta">3 hours ago <span class="pull-right">Jenifer Smith</span></div>
                         Vivamus diam elit diam, consectetur fconsectetur dapibus adipiscing elit.
                         <div class="clearfix"></div>
@@ -786,13 +786,13 @@
                     </li>
 
                     <li class="by-other">
-                      <!-- Use the class "pull-right" in avatar -->
+                      <!-- Use the class "pull-right" in avatar 
                       <div class="avatar pull-right">
                         <img src="img/user22.png" alt="" />
                       </div>
 
                       <div class="chat-content">
-                        <!-- In the chat meta, first include "time" then "name" -->
+                        <!-- In the chat meta, first include "time" then "name" 
                         <div class="chat-meta">3 hours ago <span class="pull-right">Jenifer Smith</span></div>
                         Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
                         <div class="clearfix"></div>
@@ -802,7 +802,7 @@
                   </ul>
 
                 </div>
-                <!-- Widget footer -->
+                <!-- Widget footer 
                 <div class="widget-foot">
 
                   <form class="form-inline">
@@ -821,7 +821,7 @@
           </div>
 
           <div class="col-lg-8">
-            <!--Project Activity start-->
+            <!--Project Activity start
             <section class="panel">
               <div class="panel-body progress-panel">
                 <div class="row">
@@ -943,11 +943,11 @@
                 </tbody>
               </table>
             </section>
-            <!--Project Activity end-->
+            <!--Project Activity end
           </div>
         </div><br><br>
 
-        <div class="row">
+<!--<div class="row">
           <div class="col-md-6 portlets">
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -962,7 +962,7 @@
                 <!-- Widget content -->
 
                 <!-- Below line produces calendar. I am using FullCalendar plugin. -->
-                <div id="calendar"></div>
+<!--<div id="calendar"></div>
 
               </div>
             </div>
@@ -983,23 +983,23 @@
                 <div class="padd">
 
                   <div class="form quick-post">
-                    <!-- Edit profile form (not working)-->
+                    <!-- Edit profile form (not working)
                     <form class="form-horizontal">
-                      <!-- Title -->
+                      <!-- Title 
                       <div class="form-group">
                         <label class="control-label col-lg-2" for="title">Title</label>
                         <div class="col-lg-10">
                           <input type="text" class="form-control" id="title">
                         </div>
                       </div>
-                      <!-- Content -->
+                      <!-- Content 
                       <div class="form-group">
                         <label class="control-label col-lg-2" for="content">Content</label>
                         <div class="col-lg-10">
                           <textarea class="form-control" id="content"></textarea>
                         </div>
                       </div>
-                      <!-- Cateogry -->
+                      <!-- Cateogry 
                       <div class="form-group">
                         <label class="control-label col-lg-2">Category</label>
                         <div class="col-lg-10">
@@ -1012,7 +1012,7 @@
                                                 </select>
                         </div>
                       </div>
-                      <!-- Tags -->
+                      <!-- Tags 
                       <div class="form-group">
                         <label class="control-label col-lg-2" for="tags">Tags</label>
                         <div class="col-lg-10">
@@ -1020,9 +1020,9 @@
                         </div>
                       </div>
 
-                      <!-- Buttons -->
+                      <!-- Buttons 
                       <div class="form-group">
-                        <!-- Buttons -->
+                        <!-- Buttons 
                         <div class="col-lg-offset-2 col-lg-9">
                           <button type="submit" class="btn btn-primary">Publish</button>
                           <button type="submit" class="btn btn-danger">Save Draft</button>
@@ -1035,7 +1035,7 @@
 
                 </div>
                 <div class="widget-foot">
-                  <!-- Footer goes here -->
+                  <!-- Footer goes here 
                 </div>
               </div>
             </div>
@@ -1043,7 +1043,7 @@
           </div>
 
         </div>
-        <!-- project team & activity end -->
+        <!-- project team & activity end 
 
       </section>
       <div class="text-right">
@@ -1053,11 +1053,11 @@
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
-          -->
+          
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--main content end-->
   </section>
   <!-- container section start -->
